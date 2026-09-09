@@ -16,13 +16,13 @@ Results - A visitor can see national park information from the data.
 
 About the data - A visitor can see information about the national parks dataset.
 
-##User input
+## User input
 
 A visitor types a park name and the page searches for matching national parks.
 
 A visitor clicks 5, 10, or 20 and the page shows that number of results.
 
-##Outputs
+## Outputs
 
 - Name
 - Location
