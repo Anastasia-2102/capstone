@@ -3,6 +3,31 @@
 A family with kids needs to find a national park that is good for their family because they want to choose a park that everyone in the family can enjoy. 
 My page will let them search for a national park by name and show its location, size, visitor count, and description.
 
+
+## The plan
+
+![My wireframe](wireframe2.png)
+
+### Sections
+
+Search - A visitor can search for a national park by name and choose how many results to show.
+
+Results - A visitor can see national park information from the data.
+
+About the data - A visitor can see information about the national parks dataset.
+
+##User input
+
+A visitor types a park name and the page searches for matching national parks.
+
+A visitor clicks 5, 10, or 20 and the page shows that number of results.
+
+##Outputs
+
+- Name
+- Location
+- Area in acres
+
 ## Data
 
 File: `US National Parks.csv`
@@ -23,8 +48,3 @@ File: `US National Parks.csv`
 1. Which national park had the most recreation visitors in 2019?
 2. Which national parks have the largest area in acres?
 3. Which national parks were established earliest?
-
-## Links
-
-- Live: https://anastasia-2102.github.io/capstone/
-- Repo: https://github.com/Anastasia-2102/capstone
