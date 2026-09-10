@@ -48,3 +48,11 @@ File: `US National Parks.csv`
 1. Which national park had the most recreation visitors in 2019?
 2. Which national parks have the largest area in acres?
 3. Which national parks were established earliest?
+
+## Team
+
+Accountability partners:
+
+- @mattwainwright-dev
+- @SnDyMrn13
+- @Hexaxolotl
