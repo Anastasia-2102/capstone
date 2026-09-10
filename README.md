@@ -53,6 +53,7 @@ File: `US National Parks.csv`
 
 Accountability partners:
 
-- @mattwainwright-dev
-- @SnDyMrn13
-- @Hexaxolotl
+- [@mattwainwright-dev](https://github.com/mattwainwright-dev)
+- [@SnDyMrn13](https://github.com/SnDyMrn13)
+- [@Hexaxolotl](https://github.com/Hexaxolotl)
+
