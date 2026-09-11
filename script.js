@@ -7,6 +7,11 @@ async function loadParks() {
   let data = await response.json();
   let parks = data.records;
   console.log("Records: " + parks.length);
+  
+  let park = parks[0];
+
+document.getElementById("results-list").textContent = park.Name;
+document.getElementById("results-detail").textContent = park.Location;
 }
 
 let goButton = document.getElementById("go-button");
