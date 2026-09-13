@@ -8,6 +8,12 @@ My page will let them search for a national park by name and show its location, 
 
 ![My wireframe](wireframe2.png)
 
+
+## What changed
+
+The plan said visitors could search for a national park by name and choose 5, 10, or 20 results. The page does that now, and it shows the park name, location, and area. I also added recreation visitors in 2019 and a description because these are useful parts of the park information and were included in the problem. The search, results, and About the data sections stayed in the plan, and the page now follows the plan more closely.
+
+
 ### Sections
 
 Search - A visitor can search for a national park by name and choose how many results to show.
