@@ -1,8 +1,9 @@
 let searchBox = document.getElementById("search-box");
+let resultCount = document.getElementById("result-count");
 
 async function loadParks() {
   document.getElementById("results-list").textContent = "Loading…";
-  let response = await fetch("https://student-data-api.anastasiaketchersid-757.workers.dev/api/v1/datasets/us-national-parks/records?search=" + searchBox.value);
+  let response = await fetch("https://student-data-api.anastasiaketchersid-757.workers.dev/api/v1/datasets/us-national-parks/records?search=" + searchBox.value + "&limit=" + resultCount.value);
   console.log("Status: " + response.status);
 
 if (response.status !== 200) {
@@ -20,13 +21,16 @@ if (response.status !== 200) {
   let park = parks[0];
 
   let lines = parks.map(function (park) {
-  return "• " + park.Name + " is located in " + park.Location + ".";
+  return "• " + park.Name +
+    " is located in " + park.Location +
+    ". Area: " + park["Area in acres"] +
+    " acres. Visitors in 2019: " + park["Recreation visitors in 2019"] +
+    ". " + park.Description;
 });
 
-  document.getElementById("results-list").textContent = lines.join(" ");
+document.getElementById("results-list").textContent = lines.join(" ");
  }
-}
-
+}  
 let goButton = document.getElementById("go-button");
 
 goButton.addEventListener("click", function () {

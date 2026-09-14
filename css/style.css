@@ -1,0 +1,79 @@
+html,
+body {
+  background-color: #f4f1e8;
+  text-align: center;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  justify-content: center;
+}
+
+.hero {
+  background-color: #2f4f3a;
+  color: white;
+  border-radius: 20px;
+  padding: 70px 30px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  color: #2f4f3a;
+  font-size: 32px;
+}
+
+#search {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#search-box {
+  max-width: 500px;
+}
+
+#result-count {
+  max-width: 150px;
+  margin: 10px;
+}
+
+#results-list {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#about {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
