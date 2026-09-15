@@ -176,3 +176,22 @@ footer {
   color: #2f4f3a;
   text-align: center;
 }
+
+#random {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+  background-color: #e4eadf;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(47, 79, 58, 0.12);
+}
+
+#random-button {
+  background-color: #c96f32;
+  border-color: #c96f32;
+}
+
+#random-button:hover {
+  background-color: #a95724;
+}
