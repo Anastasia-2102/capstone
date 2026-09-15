@@ -6,7 +6,7 @@ let funFacts = {
   "Yellowstone": "Yellowstone was the first national park in the world.",
   "Grand Canyon": "The Grand Canyon was carved by the Colorado River.",
   "Yosemite": "Yosemite is famous for its giant granite cliffs.",
-  "Acadia": "Acadia is the first national park east of the Mississippi River."
+  "Acadia": "Acadia is the first national park east of the Mississippi River.",
   "Zion": "Zion is known for its huge sandstone cliffs.",
   "Bryce Canyon": "Bryce Canyon is famous for its colorful hoodoos."
 };
