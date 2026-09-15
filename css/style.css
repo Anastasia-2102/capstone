@@ -33,6 +33,7 @@ nav ul {
 }
 
 .hero p {
+  color: white;
   max-width: 750px;
   margin: 0 auto;
   font-size: 18px;
@@ -45,7 +46,10 @@ section {
 section h2 {
   color: #2f4f3a;
   font-size: 32px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
 }
+
 
 #search {
   max-width: 700px;
@@ -58,22 +62,117 @@ section h2 {
 }
 
 #result-count {
-  max-width: 150px;
+  max-width: 120px;
   margin: 10px;
 }
 
 #results-list {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  font-size: 18px;
-  line-height: 1.7;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+
+#results-list .card {
+  width: 100%;
+  margin: 0;
 }
 
 #about {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
-  background-color: white;
+  padding: 35px;
+  background-color: #e4eadf;
   border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(47, 79, 58, 0.12);
+}
+
+.card {
+  background-color: #fffdf7;
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(47, 79, 58, 0.15);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-top: 5px solid #c96f32;
+}
+
+
+.card h3 {
+  color: #2f4f3a;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin-bottom: 10px;
+  color: #4f5d50;
+  line-height: 1.6;
+}
+
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#search {
+  background-color: #e4eadf;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(47, 79, 58, 0.12);
+}
+
+#search h2 {
+  margin-bottom: 25px;
+}
+
+#search-box {
+  width: 70%;
+  margin-right: 10px;
+}
+
+#go-button {
+  background-color: #2f4f3a;
+  border-color: #2f4f3a;
+}
+
+#go-button:hover {
+  background-color: #243d2d;
+}
+
+#search label {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+nav a {
+  color: #2f4f3a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c96f32;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 25px;
+  background-color: #e4eadf;
+  color: #2f4f3a;
+  text-align: center;
 }

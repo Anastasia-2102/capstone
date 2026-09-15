@@ -2,18 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+	<!-- Make the page work well on different screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>US National Parks</title>
+    <!-- Page title -->
+	<title>US National Parks</title>
 
+    <!-- Pico CSS framework -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
-    <link rel="stylesheet" href="css/hero.css">
+    <!-- Custom CSS files -->
+	<link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <main>
-
+      <!-- Navigation links -->
       <nav>
         <ul>
           <li><a href="#search">SEARCH</a></li>
@@ -22,15 +26,21 @@
         </ul>
       </nav>
 
+      <!-- Hero section with the main message -->
       <div class="hero">
         <h1>Find a National Park for Your Family</h1>
         <p>A family with kids needs to find a national park that is good for their family because they want to choose a park that everyone in the family can enjoy.</p>
       </div>
 
+      <!-- Search section -->
       <section id="search">
         <h2>Search</h2>
+		
+		<!-- User enters a national park name -->
         <input id="search-box" type="text" placeholder="A national park name">
-        <button id="go-button" type="button">Search</button>
+        <!-- Search button -->
+		<button id="go-button" type="button">Search</button>
+		<!-- Choose how many results to show -->
 		<label for="result-count">Number of results</label>
 		
       <select id="result-count">
@@ -40,11 +50,21 @@
       </select>
       </section>
 
+
+      <!-- Results section -->
       <section id="results">
         <h2>Results</h2>
-        <p id="results-list"></p>
+        <!-- JavaScript adds the park cards here -->
+		<div id="results-list"></div>
       </section>
 	 
+	  <section id="random">
+        <h2>Discover a Random Park</h2>
+        <button id="random-button" type="button">Random Park</button>
+        <div id="random-park"></div>
+      </section>
+	 
+	  <!-- About the data section -->
       <section id="about">
         <h2>About the data</h2>
         <p>This page uses data about US National Parks.</p>
@@ -53,6 +73,12 @@
 
     </main>
 	
+	<!-- Footer -->
+	<footer>
+      <p>Created by Anastasia • 2026</p>
+    </footer>
+	
+	<!-- JavaScript file -->
 	<script src="script.js"></script>
   </body>
 </html>
