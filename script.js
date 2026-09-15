@@ -2,6 +2,15 @@
 let searchBox = document.getElementById("search-box");
 let resultCount = document.getElementById("result-count");
 
+let funFacts = {
+  "Yellowstone": "Yellowstone was the first national park in the world.",
+  "Grand Canyon": "The Grand Canyon was carved by the Colorado River.",
+  "Yosemite": "Yosemite is famous for its giant granite cliffs.",
+  "Acadia": "Acadia is the first national park east of the Mississippi River."
+  "Zion": "Zion is known for its huge sandstone cliffs.",
+  "Bryce Canyon": "Bryce Canyon is famous for its colorful hoodoos."
+};
+
 async function loadParks() {
   // Show a loading message
   document.getElementById("results-list").textContent = "Loading…";
@@ -34,6 +43,7 @@ async function loadParks() {
   console.log("Records: " + parks.length);
   
   let park = parks[0];
+  console.log(park.Name);
 
 
   // Create a card for each national park
@@ -46,6 +56,7 @@ async function loadParks() {
     "<p>Area: " + park["Area in acres"] + " acres</p>" +
     "<p>Visitors in 2019: " + park["Recreation visitors in 2019"] + "</p>" +
     "<p>" + park.Description + "</p>" +
+	"<p><strong>Fun Fact:</strong> " + (funFacts[park.Name] || "Every national park has something special to discover.") + "</p>" +
     "</div>";
 });
  
