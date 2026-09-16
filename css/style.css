@@ -195,3 +195,16 @@ footer {
 #random-button:hover {
   background-color: #a95724;
 }
+
+
+#state-box {
+  display: inline-block;
+  width: 57%;
+  margin-right: 10px;
+}
+
+#state-button {
+  display: inline-block;
+  background-color: #2f4f3a;
+  border-color: #2f4f3a;
+}

@@ -40,6 +40,16 @@
         <input id="search-box" type="text" placeholder="A national park name">
         <!-- Search button -->
 		<button id="go-button" type="button">Search</button>
+		
+		<!-- Search for parks by state -->
+		<div class="state-search">
+		<!-- User enters a state name -->
+		<input id="state-box" type="text" placeholder="Search by state">
+        <!-- Search button for state -->
+		<button id="state-button" type="button">Search by State</button>
+		</div>
+		
+		
 		<!-- Choose how many results to show -->
 		<label for="result-count">Number of results</label>
 		
@@ -58,10 +68,13 @@
 		<div id="results-list"></div>
       </section>
 	 
+	 <!-- Random park section -->
 	  <section id="random">
         <h2>Discover a Random Park</h2>
+		<!-- Button selects a random national park -->
         <button id="random-button" type="button">Random Park</button>
-        <div id="random-park"></div>
+        <!-- JS displays the random park here -->
+		<div id="random-park"></div>
       </section>
 	 
 	  <!-- About the data section -->
