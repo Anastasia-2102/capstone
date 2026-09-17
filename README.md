@@ -15,7 +15,7 @@ The plan said visitors could search for a national park by name and choose 5, 10
 
 ## How the request reaches my API
 
-A visitor types a national park name or state into the search box and presses Search. The page puts that word into the address it asks my API for — `https://student-data-api.anastasiaketchersid-757.workers.dev/api/v1/datasets/us-national-parks/records?search=Yellowstone`. My API answers with the records that match the search, in `data.records`. The page shows the matching parks as cards with the park name, location, date established, area, visitors, and description.
+A visitor types a national park name or state into the search box and presses Search. The page puts that word into the address it asks my API for - `https://student-data-api.anastasiaketchersid-757.workers.dev/api/v1/datasets/us-national-parks/records?search=Yellowstone`. My API answers with the records that match the search, in `data.records`. The page shows the matching parks as cards with the park name, location, date established, area, visitors, and description.
 
 The request goes through my own API, and there is no key in the page.
 
