@@ -13,6 +13,16 @@ My page will let them search for a national park by name and show its location, 
 
 The plan said visitors could search for a national park by name and choose 5, 10, or 20 results. The page does that now, and it shows the park name, location, and area. I also added recreation visitors in 2019 and a description because these are useful parts of the park information and were included in the problem. The search, results, and About the data sections stayed in the plan, and the page now follows the plan more closely.
 
+## How the request reaches my API
+
+A visitor types a national park name or state into the search box and presses Search. The page puts that word into the address it asks my API for — `https://student-data-api.anastasiaketchersid-757.workers.dev/api/v1/datasets/us-national-parks/records?search=Yellowstone`. My API answers with the records that match the search, in `data.records`. The page shows the matching parks as cards with the park name, location, date established, area, visitors, and description.
+
+The request goes through my own API, and there is no key in the page.
+
+## Links
+
+- Live page: [US National Parks](https://anastasia-2102.github.io/capstone/)
+- Repository: [GitHub repository](https://github.com/Anastasia-2102/capstone)
 
 ### Sections
 
