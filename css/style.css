@@ -10,6 +10,7 @@ main {
   padding: 0 20px;
 }
 
+/* Navigation */
 nav {
   margin-bottom: 20px;
 }
@@ -18,6 +19,7 @@ nav ul {
   justify-content: center;
 }
 
+/* Hero section */
 .hero {
   background-color: #2f4f3a;
   color: white;
@@ -39,6 +41,7 @@ nav ul {
   font-size: 18px;
 }
 
+/* Section spacing */
 section {
   margin-bottom: 50px;
 }
@@ -50,7 +53,7 @@ section h2 {
   letter-spacing: 0.5px;
 }
 
-
+/* Search section */
 #search {
   max-width: 700px;
   margin-left: auto;
@@ -61,6 +64,7 @@ section h2 {
   max-width: 500px;
 }
 
+/* Results  */
 #result-count {
   max-width: 120px;
   margin: 10px;
@@ -81,6 +85,7 @@ section h2 {
   margin: 0;
 }
 
+/* About section */
 #about {
   max-width: 800px;
   margin-left: auto;
@@ -91,6 +96,7 @@ section h2 {
   box-shadow: 0 4px 15px rgba(47, 79, 58, 0.12);
 }
 
+/* Park cards */
 .card {
   background-color: #fffdf7;
   border-radius: 20px;
@@ -124,11 +130,13 @@ section h2 {
   margin-bottom: 20px;
 }
 
+/* Card hover effect */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Search form styling */
 #search {
   background-color: #e4eadf;
   padding: 35px;
@@ -159,6 +167,7 @@ section h2 {
   margin-top: 15px;
 }
 
+/* Navigation link styling */
 nav a {
   color: #2f4f3a;
   font-weight: bold;
@@ -169,6 +178,7 @@ nav a:hover {
   color: #c96f32;
 }
 
+/* Footer */
 footer {
   margin-top: 50px;
   padding: 25px;
@@ -177,6 +187,7 @@ footer {
   text-align: center;
 }
 
+/* Random park section */
 #random {
   max-width: 800px;
   margin-left: auto;
@@ -196,7 +207,7 @@ footer {
   background-color: #a95724;
 }
 
-
+/* State search */
 #state-box {
   display: inline-block;
   width: 57%;
