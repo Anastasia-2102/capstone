@@ -219,3 +219,19 @@ footer {
   background-color: #2f4f3a;
   border-color: #2f4f3a;
 }
+
+@media (max-width: 600px) {
+	#results-list { 
+	grid-template-columns: 1fr;
+  }
+}
+
+#state-box {
+    width: 50%;
+    margin-right: 5px;
+  }
+
+  #state-button {
+    width: 45%;
+  }
+}
